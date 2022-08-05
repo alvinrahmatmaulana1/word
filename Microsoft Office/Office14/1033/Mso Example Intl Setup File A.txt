@@ -1,0 +1,1 @@
+This is example 64-bit setup file: mso_example\x64\ship\en-us\msoexampleaintl.txt 

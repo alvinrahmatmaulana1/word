@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/windows/2006/propertydescription" schemaVersion="1.0">
+
+	<propertyDescriptionList publisher="Microsoft" product="Visio">
+
+		<!-- Set the max size for custom properties to (1024*100=102400) -->
+
+		<propertyDescription formatID="{A4790B72-7113-4348-97EA-292BBC1F6770}" propID="5" name="Microsoft.Visio.MastersKeywords">
+			<searchInfo inInvertedIndex="true" isColumn="true" maxSize="102400" />
+			<labelInfo label="Masters Keywords (debug)" hideLabel="false" />
+			<typeInfo type="String" includeInFullTextQuery="true" isViewable="true" isQueryable="true" />
+		</propertyDescription>
+
+		<propertyDescription formatID="{A4790B72-7113-4348-97EA-292BBC1F6770}" propID="6" name="Microsoft.Visio.MastersDetails">
+			<searchInfo inInvertedIndex="true" isColumn="true" maxSize="102400" />
+			<labelInfo label="Masters Keywords (debug)" hideLabel="false" />
+			<typeInfo type="String" includeInFullTextQuery="true" isViewable="true" isQueryable="true" />
+		</propertyDescription>
+		
+	</propertyDescriptionList>
+
+</schema>
+

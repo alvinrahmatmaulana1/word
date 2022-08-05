@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/windows/2006/propertydescription" schemaVersion="1.0">
+
+	<propertyDescriptionList publisher="Microsoft" product="OneNote">
+
+		<!-- Set the max size for custom properties to 1MB (1024*1024=1048576) -->
+
+		<propertyDescription formatID="{641064BA-9329-47E6-8F36-5FA81AA461A0}" propID="2" name="Microsoft.OneNote.PageEditHistory">
+			<searchInfo inInvertedIndex="true" isColumn="true" maxSize="1048576" />
+			<labelInfo hideLabel="true" />
+			<typeInfo type="String" isInnate="true" includeInFullTextQuery="true" />
+		</propertyDescription>
+
+		<propertyDescription formatID="{641064BA-9329-47E6-8F36-5FA81AA461A0}" propID="3" name="Microsoft.OneNote.TaggedNotes">
+			<searchInfo isColumn="true" maxSize="1048576" />
+			<labelInfo hideLabel="true" />
+			<typeInfo type="String" isInnate="true" />
+		</propertyDescription>
+
+		<propertyDescription formatID="{641064BA-9329-47E6-8F36-5FA81AA461A0}" propID="4" name="Microsoft.OneNote.LinkedNoteUri">
+			<searchInfo inInvertedIndex="true" isColumn="true" maxSize="1048576" />
+			<labelInfo hideLabel="true" />
+			<typeInfo type="String" isInnate="true" includeInFullTextQuery="true" />
+		</propertyDescription>
+
+	</propertyDescriptionList>
+
+</schema>
+
